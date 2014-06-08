@@ -1,4 +1,5 @@
 'use strict';
+
 angular.module('Lunch.matched', ['Lunch.factory.requests'])
 .config(function($stateProvider){
   $stateProvider

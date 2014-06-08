@@ -25,7 +25,7 @@ angular.module('Lunch.profile', [
                                     requests, matchData, match) {
   if (match.id === undefined) {
     $scope.action = 'Find a Lunch Buddy';
-    $scope.takeAction = function() { $state.go('app.browse'); };
+    $scope.takeAction = function() { $state.go('app.noshow'); };
   } else {
     $scope.action = 'Plan your Lunch';
     $scope.takeAction = function() { $state.go('app.chats'); };
